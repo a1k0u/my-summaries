@@ -1,29 +1,58 @@
-Here is a simple footnote[^1].
+# Flask
 
-A footnote can also have multiple lines[^2].  
+> **Flask** - микрофреймворк[^1] для создания сайтов.
 
-You can also use words, to fit your writing style more closely[^note].
+Для дальнейшей работы нужно понять принцип взаимодействия
+между клиентом (браузером) и сервером (нашим фреймворком).
 
-[^1]: My reference.
-[^2]: Every new line should be prefixed with 2 spaces.  
-  This allows you to have a footnote with multiple lines.
-[^note]:
-    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
-    This footnote also has been made with a different syntax using 4 spaces for new lines.
+Когда пользователь вводит желанный сайт, браузер отправляет
+запрос на DNS-сервер[^2], чтобы получить IP-адрес[^3] нашего сайта.
+Затем по полученному IP отправляется запрос, который возвращает
+ответ в виде какого-то документа.
 
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+```text
+User -[url]-> DNS -[ip]-> User -[ip]-> Server -[Document]-> User.
+```
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+Наш фреймворк установлен на сервере, которому веб-сервер[^4] отдает
+запрос на обработку. Между Python-программой и сервером находиться
+прослойка в виде WSGI-приложением [_Web Server Gateway Interface_], 
+предоставляющим удобный интерфейс для взаимодействия с сервером.
 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+При поступлении нового запроса активизируется WSGI-приложение, 
+выполняется определенный обработчик, который называется "Представление".
+При нескольких запросах обработчики работают в многопоточном режиме.
 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+Установка микрофреймворка происходит через пакетный менеджер в 
+CLI командой: `pip install Flask`.
+
+Создадим простое WSGI-приложение, которое по url "/" будет возвращать
+заголовок "Some Text".
+
+```python
+from flask import Flask
+
+app = Flask(__name__)
+
+
+@app.route("/")
+def index():
+    return "<h1>Some Text</h1>"
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
+```
+
+[^1]: Фреймворк - программная платформа (набор библиотек),
+призванная облегчить разработку продукта путём предоставления
+всего необходимого инструментария. Микрофреймворк - ограничен
+по функциям, но он легковеснее и, как правило, хорошо защищён.
+
+[^2]: DNS (Domain Name Server) - специализированный компьютер, который
+хранит IP-адреса сайтов.
+
+[^3]: IP (Internet Protocol) - уникальный числовой идентификатор устройства
+в компьютерной сети.
+
+[^4]: Веб-сервер - сервер, принимающий HTTP-запросы от клиентов.
