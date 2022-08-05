@@ -1,9 +1,8 @@
-# Книга бэкенд-разработчика
+<pre>
+This is my own archive to show activity in learning programming;
+most of the time I'm researching new things and I want to share this on GitHub. 
+There is nothing new here, this code can be written after tutorials, articles, documentation, books, etc.
+But I wrote it myself. You can be sure that I know what I learned :)
 
-В процессе наполнения содержания...
-
-## Содержание
-
-### Python
-
-- [Flask](flask.md)
+Some parts of this code may be lead by comments and some useful URLs. Please enjoy and explore it!
+</pre>
