@@ -16,8 +16,3 @@ def index():
 def post_content(url: str):
     post = Post.query.where(Post.title == url).first()
     return render_template("posts/post_content.html", post=post)
-
-
-@posts.errorhandler(404)
-def error_page():
-    pass
