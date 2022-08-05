@@ -9,10 +9,15 @@
 {% endblock %}
 
 {% block content %}
-    dsadasd
-    block
-    ads
-    as d
-    as
-    {{ post.body }}
+    <div class="header">
+        {% for tag in tags %}
+            <a href="{{ url_for('posts.tag_content', url=tag.url) }}">
+                <span class="badge bg-secondary">{{ tag.name }}</span>
+            </a>
+        {% endfor %}
+    </div>
+
+    <div class="main-content">
+        {{ post.body }}
+    </div>
 {% endblock %}
