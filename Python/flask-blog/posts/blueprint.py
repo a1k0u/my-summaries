@@ -2,8 +2,11 @@ from flask import Blueprint
 from flask import render_template
 from flask import redirect
 from flask import request
+from flask import url_for
+from app import db
 from models import Post
 from models import Tag
+from .forms import PostEdit
 
 posts = Blueprint("posts", __name__, template_folder="templates")
 
@@ -25,6 +28,25 @@ def index():
         page_title=page_title,
         posts=list_of_posts,
     )
+
+
+@posts.route("/create", methods=["GET", "POST"])
+def create_post():
+    if request.method == "POST":
+        title = request.form["title"]
+        body = request.form["body"]
+        new_post = Post(title=title, body=body)
+
+        try:
+            db.session.add(new_post)
+            db.session.commit()
+        except:
+            ...
+
+        return redirect(url_for("posts.index"))
+
+    forms = PostEdit()
+    return render_template("posts/post_editor.html", editor_title="Create post", forms=forms)
 
 
 @posts.route("/<url>", methods=["GET"])
