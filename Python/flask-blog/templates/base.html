@@ -25,10 +25,12 @@
               <a class="nav-link" href="#">Link</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+          <form action="{{ url_for('posts.index') }}" class="d-flex" role="search" method="GET">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q" value="{{ request.args.get('q', '') }}">
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
+
         </div>
       </div>
     </nav>
