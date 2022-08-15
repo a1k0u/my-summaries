@@ -14,11 +14,17 @@ posts = Blueprint("posts", __name__, template_folder="templates")
 @posts.route("/", methods=["GET"])
 def index():
     q = request.args.get("q")
+    page = request.args.get("page")
+
+    opened_page = int(page) if page and page.isdigit() else 1
+
     list_of_posts = (
-        Post.query.filter(Post.title.contains(q) | Post.body.contains(q)).all()
+        Post.query.filter(Post.title.contains(q) | Post.body.contains(q))
         if q
-        else Post.query.all()
+        else Post.query
     )
+
+    pages = list_of_posts.paginate(page=opened_page, per_page=1)
     page_title = "Posts" if not q else f'Posts that contain "{q}"'
     webpage_title = "Index page"
 
@@ -26,7 +32,7 @@ def index():
         "posts/posts.html",
         webpage_title=webpage_title,
         page_title=page_title,
-        posts=list_of_posts,
+        pages=pages,
     )
 
 
