@@ -52,7 +52,12 @@ def create_post():
         return redirect(url_for("posts.index"))
 
     forms = PostEdit()
-    return render_template("posts/post_editor.html", editor_title="Create post", forms=forms)
+    return render_template(
+        "posts/post_editor.html",
+        editor_title="Create post",
+        forms=forms,
+        url=url_for("posts.create_post"),
+    )
 
 
 @posts.route("/<url>", methods=["GET"])

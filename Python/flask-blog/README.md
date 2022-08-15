@@ -1,6 +1,8 @@
 ## About
 
-Silly blog was created in flask to `play` with this micro framework.
+Silly blog (_no validation, etc._) was created in flask to `play` with this micro framework
+> **play** **~** admin, migrate, sqlalchemy, blueprints, wtforms, html templates.
+
 
 ## Usage
 
