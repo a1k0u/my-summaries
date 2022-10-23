@@ -109,5 +109,82 @@ ghci> :t length
 length :: [a] -> Int
 ```
 
+# 7. Создание новых типов и классов типов.
 
+Один из способов создать свой собственный тип - `data`.
+
+```haskell
+ghci> data Bool = False | True
+ghci> data Shape = Circle Float Float Float | Rec Float Float Float Float
+```
+
+Когда мы записываем конструктор значения типа, опционально можем
+добавить типы после имени; эти типы определяют, какие значения
+будет содержать тип с данным конструктором.
+
+```haskell
+ghci> :t Circle
+Circle :: Float -> Float -> Float -> Shape
+```
+
+```haskell
+ghci> area :: Shape -> Float
+ghci> area (Circle _ _ r) = pi * r ^ 2
+ghci> area $ Circle 3 4 10
+314.15927
+```
+
+Чтобы определить для нашего типа `Shape` экземпляр класса `Show`, 
+модифицируем его следующим образом.
+```haskell
+data Shape = Circle Float Float Float deriving (Show)        
+```
+
+```haskell
+ghci> Circle 10 20 30
+Cirlce 10.0 20.0 30.0
+```
+
+**Конструкторы значений** - это функция.
+
+```haskell
+data Point = Point Float Float deriving (Show)
+data Shape = Circle Point Float | Rectangle ... deriving (Show)
+```
+
+Подвигаем наши фигуры:
+```haskell
+nudge :: Shape -> Float -> Float -> Shape
+nudge (Circle (Point x y) r) a b = Circle (Point (x + a) (y + b)) r
+```
+
+Создадим тип, отображающий информацию о человеке.
+
+```haskell
+data Person = Person String String Int Float String String deriving (Show)
+```
+
+```haskell
+ghci> let guy = Person "Фредди" "Крюгер" 43 184.2 "526–2928" "Эскимо" ghci> guy
+Person "Фредди" "Крюгер" 43 184.2 "526–2928" "Эскимо"
+```
+
+Но есть синтаксис для более читаемой формы, он же генерирует
+функции для извлечения полей. 
+
+```haskell
+data Person = Person { firstName :: String 
+                     , lastName :: String
+                     , age :: Int
+                     , height :: Float
+                     , phoneNumber :: String
+                     , flavor :: String } deriving (Show)
+```
+
+```haskell
+ghci> :t flavor
+flavor :: Person –> String
+ghci> :t firstName
+firstName :: Person –> String
+```
 
