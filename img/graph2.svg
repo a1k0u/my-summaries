@@ -1,4 +1,4 @@
-<svg viewBox="690 0 390 260" width="512" height="512" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="690 0 390 260" width="512" height="340" version="1.1" xmlns="http://www.w3.org/2000/svg">
 <style>.vertex { font-family: Consolas } .edge { font-family: Consolas } .text { font-family: Consolas }</style>
     <path d="M 720 230L 870 30" fill="none" stroke="#000000" stroke-width="2"></path>
     <path d="M 870 30L 1050 230" fill="none" stroke="#000000" stroke-width="2"></path>
