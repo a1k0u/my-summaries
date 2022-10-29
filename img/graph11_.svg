@@ -1,0 +1,63 @@
+<svg viewBox="525 -120 630 305" width="512" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<style>.vertex { font-family: Consolas } .edge { font-family: Consolas } .text { font-family: Consolas }</style>
+    <path d="M 690 0L 650 -90" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 650 -90L 610 0" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 610 0L 580 80" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 550 160L 580 80" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 610 160L 580 80" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 650 80L 610 0" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 920 120L 890 60" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 890 60L 840 -20" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 840 -20L 780 60" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 740 120L 780 60" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 800 120L 780 60" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 860 120L 890 60" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 1130 140L 1100 80" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 1100 80L 1050 0" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 990 0L 1010 -60" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 1070 140L 1100 80" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 1020 80L 1050 0" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 1050 0L 1010 -60" fill="none" stroke="#000000" stroke-width="2"></path>
+    <circle cx="650" cy="-90" r="20" fill="hsl(0,100%,48%)" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="650" y="-90" dominant-baseline="middle" text-anchor="middle" fill="hsl(0,0%,99%)" font-size="18px">g</text>
+    <circle cx="610" cy="0" r="20" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="610" y="0" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">p</text>
+    <circle cx="580" cy="80" r="20" fill="hsl(0,0%,99%)" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="580" y="80" dominant-baseline="middle" text-anchor="middle" fill="hsl(0,0%,0%)" font-size="18px">x</text>
+    <circle cx="550" cy="160" r="15" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="550" y="160" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">a</text>
+    <circle cx="610" cy="160" r="15" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="610" y="160" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">b</text>
+    <circle cx="650" cy="80" r="15" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="650" y="80" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">c</text>
+    <circle cx="690" cy="0" r="15" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="690" y="0" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">d</text>
+    <circle cx="890" cy="60" r="20" fill="hsl(0,0%,99%)" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="890" y="60" dominant-baseline="middle" text-anchor="middle" fill="hsl(0,0%,0%)" font-size="18px">g</text>
+    <circle cx="840" cy="-20" r="20" fill="hsl(0,100%,48%)" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="840" y="-20" dominant-baseline="middle" text-anchor="middle" fill="hsl(0,0%,99%)" font-size="18px">p</text>
+    <circle cx="780" cy="60" r="20" fill="hsl(0,0%,99%)" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="780" y="60" dominant-baseline="middle" text-anchor="middle" fill="hsl(0,0%,0%)" font-size="18px">x</text>
+    <circle cx="740" cy="120" r="15" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="740" y="120" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">a</text>
+    <circle cx="800" cy="120" r="15" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="800" y="120" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">b</text>
+    <circle cx="860" cy="120" r="15" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="860" y="120" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">c</text>
+    <circle cx="920" cy="120" r="15" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="920" y="120" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">d</text>
+    <circle cx="1100" cy="80" r="20" fill="hsl(0,0%,99%)" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="1100" y="80" dominant-baseline="middle" text-anchor="middle" fill="hsl(0,0%,0%)" font-size="18px">g</text>
+    <circle cx="1050" cy="0" r="20" fill="hsl(0,0%,99%)" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="1050" y="0" dominant-baseline="middle" text-anchor="middle" fill="hsl(0,0%,0%)" font-size="18px">p</text>
+    <circle cx="1010" cy="-60" r="20" fill="hsl(0,100%,48%)" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="1010" y="-60" dominant-baseline="middle" text-anchor="middle" fill="hsl(0,0%,99%)" font-size="18px">x</text>
+    <circle cx="990" cy="0" r="15" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="990" y="0" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">a</text>
+    <circle cx="1020" cy="80" r="15" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="1020" y="80" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">b</text>
+    <circle cx="1070" cy="140" r="15" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="1070" y="140" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">c</text>
+    <circle cx="1130" cy="140" r="15" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="1130" y="140" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">d</text>
+</svg>

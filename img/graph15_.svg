@@ -1,0 +1,53 @@
+<svg viewBox="570 -150 450 270" width="512" height="330" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<style>.vertex { font-family: Consolas } .edge { font-family: Consolas } .text { font-family: Consolas }</style>
+    <path d="M 600 -70L 731.9970703125 28.997802734375" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(731.9970703125 28.997802734375) rotate(36.86989764584402)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 600 50L 725.0048828125 50" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(725.0048828125 50) rotate(0)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 760 -70L 760 15.001220703125" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(760 15.001220703125) rotate(90)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 600 -70L 725.0048828125 -70" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(725.0048828125 -70) rotate(0)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 600 -70L 600 15.001220703125" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(600 15.001220703125) rotate(90)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 990 -120L 900.230712890625 -67.63458251953125" fill="none" stroke="#4caf50" stroke-width="2"></path>
+    <path transform="translate(900.230712890625 -67.63458251953125) rotate(149.74356283647074)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#4caf50"></path>
+    <path d="M 990 -120L 892.774658203125 -6.5704345703125" fill="none" stroke="hsl(0,100%,48%)" stroke-width="2"></path>
+    <path transform="translate(892.774658203125 -6.5704345703125) rotate(130.6012946450045)" d="M-1, -5 L 14 0 L -1, 5 z" fill="hsl(0,100%,48%)"></path>
+    <path d="M 990 -120L 887.362060546875 59.61639404296875" fill="none" stroke="#ff9800" stroke-width="2"></path>
+    <path transform="translate(887.362060546875 59.61639404296875) rotate(119.74488129694224)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#ff9800"></path>
+    <path d="M 990 -50L 900.230712890625 2.36541748046875" fill="none" stroke="#4caf50" stroke-width="2"></path>
+    <path transform="translate(900.230712890625 2.36541748046875) rotate(149.74356283647074)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#4caf50"></path>
+    <path d="M 990 90L 900.230712890625 37.63458251953125" fill="none" stroke="#ff9800" stroke-width="2"></path>
+    <path transform="translate(900.230712890625 37.63458251953125) rotate(-149.74356283647074)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#ff9800"></path>
+    <path d="M 870 90L 955.001220703125 90" fill="none" stroke="#ff9800" stroke-width="2"></path>
+    <path transform="translate(955.001220703125 90) rotate(0)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#ff9800"></path>
+    <path d="M 870 20L 955.001220703125 20" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path transform="translate(955.001220703125 20) rotate(0)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#000000"></path>
+    <path d="M 870 -50L 955.001220703125 -50" fill="none" stroke="#4caf50" stroke-width="2"></path>
+    <path transform="translate(955.001220703125 -50) rotate(0)" d="M-1, -5 L 14 0 L -1, 5 z" fill="#4caf50"></path>
+    <circle cx="600" cy="-70" r="20" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="600" y="-70" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">1</text>
+    <circle cx="600" cy="50" r="20" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="600" y="50" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">2</text>
+    <circle cx="760" cy="-70" r="20" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="760" y="-70" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">3</text>
+    <circle cx="760" cy="50" r="20" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="760" y="50" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">4</text>
+    <circle cx="870" cy="-120" r="20" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="870" y="-120" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">1in</text>
+    <circle cx="870" cy="-50" r="20" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="870" y="-50" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">2in</text>
+    <circle cx="870" cy="20" r="20" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="870" y="20" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">3in</text>
+    <circle cx="870" cy="90" r="20" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="870" y="90" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">4in</text>
+    <circle cx="990" cy="-120" r="20" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="990" y="-120" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">1out</text>
+    <circle cx="990" cy="-50" r="20" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="990" y="-50" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">2out</text>
+    <circle cx="990" cy="20" r="20" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="990" y="20" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">3out</text>
+    <circle cx="990" cy="90" r="20" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="990" y="90" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">4out</text>
+</svg>
