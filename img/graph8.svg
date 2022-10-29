@@ -1,0 +1,15 @@
+<svg viewBox="745 -55 220 230" width="512" height="512" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<style>.vertex { font-family: Consolas } .edge { font-family: Consolas } .text { font-family: Consolas }</style>
+    <path d="M 930 140L 780 140" fill="none" stroke="#000000" stroke-width="5"></path>
+    <path d="M 780 -20L 930 -20" fill="none" stroke="#000000" stroke-width="5"></path>
+    <path d="M 780 140L 905.0381469726562 6.6259765625" fill="none" stroke="#000000" stroke-width="1"></path>
+    <path transform="translate(905.0381469726562 6.6259765625) rotate(-46.8476102659946)" d="M-0.75, -3.75 L 10.5 0 L -0.75, 3.75 z" fill="#000000"></path>
+    <circle cx="780" cy="-20" r="25" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="780" y="-20" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">L+</text>
+    <circle cx="780" cy="140" r="25" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="780" y="140" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">L-</text>
+    <circle cx="930" cy="-20" r="25" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="930" y="-20" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">R+</text>
+    <circle cx="930" cy="140" r="25" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="930" y="140" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">R-</text>
+</svg>

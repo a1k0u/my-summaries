@@ -1,0 +1,16 @@
+<svg viewBox="700 20 280 260" width="512" height="512" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<style>.vertex { font-family: Consolas } .edge { font-family: Consolas } .text { font-family: Consolas }</style>
+    <path d="M 730 50L 950 50" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 950 50L 950 250" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 950 250L 730 50" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 730 250L 730 50" fill="none" stroke="#000000" stroke-width="2"></path>
+    <path d="M 730 250L 950 250" fill="none" stroke="#000000" stroke-width="2"></path>
+    <circle cx="730" cy="50" r="20" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="730" y="50" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">1</text>
+    <circle cx="950" cy="50" r="20" fill="hsl(0,100%,48%)" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="950" y="50" dominant-baseline="middle" text-anchor="middle" fill="hsl(0,0%,99%)" font-size="18px">2</text>
+    <circle cx="730" cy="250" r="20" fill="hsl(0,100%,48%)" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="730" y="250" dominant-baseline="middle" text-anchor="middle" fill="hsl(0,0%,99%)" font-size="18px">3</text>
+    <circle cx="950" cy="250" r="20" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+    <text class="vertex" x="950" y="250" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="18px">4</text>
+</svg>
